@@ -1,5 +1,14 @@
 # 🛒 ShopKart India — Retail & E-Commerce Analytics
 
+## 🚀 Live Interactive Dashboard
+
+**[View Dashboard →](https://malleshwaric.github.io/shopkart-india-analytics/dashboard.html)**
+
+Fully interactive — charts, tabs, KPI cards. No login required, opens in any browser.
+
+---
+
+
 > End-to-end data analytics project simulating a multi-category Indian e-commerce platform. Built to demonstrate SQL, Python, and Power BI skills for a Data Analyst role.
 
 ---

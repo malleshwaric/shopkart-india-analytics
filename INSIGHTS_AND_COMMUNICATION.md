@@ -128,26 +128,3 @@ At ₹45.9Cr revenue with a 14% discount outlay (₹7.5Cr given away), optimisin
 
 ---
 
-## 5. Interview Talking Points
-
-### How to describe this project in an interview
-
-**The 60-second version:**
-> "I did an e-commerce analysis for an Indian D2C brand — 1,000 customers, 5,000 orders, 15,000 line items across 7 categories. The most interesting tension in the data is the margin-revenue relationship: Electronics drives 63% of revenue but has the lowest gross margin at 32.1%, while Fashion has the best margin at 37.2% but only 3.6% revenue share. The strategic call is to grow Fashion rather than just optimise Electronics. I also flagged COD at 25% as a cost problem — that's well above where D2C brands want to be, and a UPI incentive programme would pay for itself within two quarters."
-
-**Key metrics to memorise:**
-- ₹45.9Cr revenue, 5,000 orders, ₹91,884 AOV
-- Electronics: 63.2% revenue, 32.1% margin
-- Fashion: 3.6% revenue, 37.2% margin — highest margin
-- 10.3% return rate
-- UPI: 39.2% | COD: 25.1%
-- Maharashtra: 19.1% of revenue
-- ₹7.5Cr in discounts (14% of gross revenue)
-
-**Technical questions you might be asked:**
-
-*"How did you calculate gross margin in SQL?"*
-> "I joined order_items to products on product_id to get cost_price per item. Gross profit per line = line_total minus (quantity × cost_price). Then I aggregated by category and divided total profit by total line_total to get margin percentage. The key was using line_total (which already accounts for discounts applied at order item level) rather than unit_price × quantity."
-
-*"How would you build an RFM segmentation on this dataset?"*
-> "Recency = days since last order per customer. Frequency = count of distinct orders. Monetary = sum of net_amount. I'd score each on a 1–5 scale using NTILE(5) OVER (ORDER BY metric), then combine into an RFM score. Customers with 5-5-5 are Champions; 1-1-1 are At Risk. This segments the 1,000 customers into actionable groups for targeted CRM campaigns."

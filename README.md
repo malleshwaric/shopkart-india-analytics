@@ -9,7 +9,7 @@ Fully interactive — charts, tabs, KPI cards. No login required, opens in any b
 ---
 
 
-> End-to-end data analytics project simulating a multi-category Indian e-commerce platform. Built to demonstrate SQL, Python, and Power BI skills for a Data Analyst role.
+> E-commerce analytics for a multi-category Indian retail platform — revenue trends, category margins, customer segmentation, and return rate analysis.
 
 ---
 
@@ -100,14 +100,12 @@ psql -U your_user -d your_db -f sql/queries/revenue_analysis.sql
 
 ---
 
-## 👤 Author
+## About
 
-**Malleshwari C**  
-Supply Chain & Data Analytics | Bangalore, India  
-[GitHub](https://github.com/malleshwaric)
+Built by Malleshwari C · [GitHub](https://github.com/malleshwaric)
 
 ---
 
 ## 📁 Dataset Note
 
-All data is synthetically generated using Python's Faker library with Indian locale. No real customer or business data is used.
+Sample data generated with Python using realistic Indian market distributions.

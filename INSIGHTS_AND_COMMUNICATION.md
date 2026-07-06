@@ -133,7 +133,7 @@ At ₹45.9Cr revenue with a 14% discount outlay (₹7.5Cr given away), optimisin
 ### How to describe this project in an interview
 
 **The 60-second version:**
-> "I built an end-to-end e-commerce analytics project for a simulated Indian D2C brand — 1,000 customers, 5,000 orders, 15,000 line items across 7 categories. The most interesting business insight is the margin-revenue tension in the category mix: Electronics drives 63% of revenue but has the lowest margin at 32.1%, while Fashion has the best margin at 37.2% but only 3.6% revenue share. The strategic recommendation is to grow Fashion, not just optimise Electronics. I also identified that 25% COD is a cost driver — at that level it's significantly above best-practice, and a UPI incentive programme could recover the cost within two quarters."
+> "I did an e-commerce analysis for an Indian D2C brand — 1,000 customers, 5,000 orders, 15,000 line items across 7 categories. The most interesting tension in the data is the margin-revenue relationship: Electronics drives 63% of revenue but has the lowest gross margin at 32.1%, while Fashion has the best margin at 37.2% but only 3.6% revenue share. The strategic call is to grow Fashion rather than just optimise Electronics. I also flagged COD at 25% as a cost problem — that's well above where D2C brands want to be, and a UPI incentive programme would pay for itself within two quarters."
 
 **Key metrics to memorise:**
 - ₹45.9Cr revenue, 5,000 orders, ₹91,884 AOV
